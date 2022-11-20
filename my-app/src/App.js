@@ -6,6 +6,31 @@ function App() {
             <div className="wrapper">
                 <div className="container">
                     <div className="wrapper-second">
+                        <div className="overlay">
+                            <div className="basket">
+                                <h4>Корзина</h4>
+                                <div className="basket-card">
+                                    <img src="./img/card.png" alt="sneakers"/>
+                                    <div className="wrapper-card-basket">
+                                        <div className="title">Мужские Кроссовки <br/> Nike Air Max 270</div>
+                                        <div className="price">2000 грн</div>
+                                    </div>
+                                    <button className="delete-sneakers">
+                                        <img src="/img/cross.png" alt="cross"/>
+                                    </button>
+                                </div>
+                                <div className="basket-card">
+                                    <img src="./img/card.png" alt="sneakers"/>
+                                    <div className="wrapper-card-basket">
+                                        <div className="title">Мужские Кроссовки <br/> Nike Air Max 270</div>
+                                        <div className="price">2000 грн</div>
+                                    </div>
+                                    <button className="delete-sneakers">
+                                        <img src="/img/cross.png" alt="cross"/>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                         <header className='header'>
                             <div className="header-left">
                                 <div className="wrapper-logo">
